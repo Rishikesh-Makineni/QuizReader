@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AEP Dashboard - Modeling Methods</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AEP Safety Observation Dashboard</h1>
+        <nav>
+            <a href="index.html">Overview</a>
+            <a href="trend.html">Trend Analysis</a>
+            <a href="critical_comments.html">Critical Comments</a>
+            <a href="modeling.html">Modeling Methods</a>
+        </nav>
+    </header>
+
+    <!-- 建模方法介绍部分 -->
+    <section class="modeling-section">
+        <h2>Modeling Methods</h2>
+        <p>This project employs two main techniques for analyzing safety observation comments: Labeling and Clustering. These methods aim to classify and group safety comments based on their potential risk levels and patterns.</p>
+
+        <div class="method-section">
+            <h3>1. Labeling Method</h3>
+            <p>
+                The labeling approach is used to classify safety observations based on predefined categories or labels. In this project, we have identified critical keywords and phrases associated with high-risk incidents. We leverage open-source Natural Language Processing (NLP) models to automatically assign a label to each comment. The following steps are involved in the labeling process:
+            </p>
+            <ul>
+                <li>**Text Preprocessing**: Tokenization, stopword removal, and stemming/lemmatization of the comments.</li>
+                <li>**Keyword Detection**: Identification of critical keywords such as "electrical hazard," "fall risk," "chemical exposure," etc.</li>
+                <li>**Classification**: Using a fine-tuned NLP model to categorize each comment based on its potential risk.</li>
+            </ul>
+        </div>
+
+        <div class="method-section">
+            <h3>2. Clustering Method</h3>
+            <p>
+                Clustering is used to group safety observations that share similar characteristics or risks. This unsupervised learning technique helps in identifying common patterns among various safety comments. The following steps are involved in the clustering process:
+            </p>
+            <ul>
+                <li>**Feature Extraction**: Conversion of comments into numerical representations using techniques like TF-IDF or word embeddings.</li>
+                <li>**Clustering Algorithm**: Application of clustering algorithms such as K-Means or DBSCAN to group similar comments.</li>
+                <li>**Analysis**: Examination of clusters to understand common risk patterns and recurring safety issues.</li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

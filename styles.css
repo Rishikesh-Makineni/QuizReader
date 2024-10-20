@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #444;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.dashboard, .charts, .comments-section {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card h2, table th {
+    color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.modeling-section {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+.modeling-section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.method-section {
+    margin-top: 20px;
+}
+
+.method-section h3 {
+    color: #444;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.method-section p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.method-section ul {
+    color: #555;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+
+.method-section {
+    margin-top: 20px;
+}
+
+.method-section h3 {
+    color: #444;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.method-section p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}

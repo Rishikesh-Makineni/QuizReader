@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AEP Dashboard - Overview</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AEP Safety Observation Dashboard</h1>
+        <nav>
+            <a href="index.html">Overview</a>
+            <a href="modeling.html">Modeling Methods</a>
+            <a href="trend.html">Trend Analysis</a>
+            <a href="critical_comments.html">Critical Comments</a>
+        </nav>        
+    </header>
+    
+<!-- Background Section -->
+<section class="overview-section">
+    <h2>Background & Importance</h2>
+    <div class="method-section">
+        <h3>1. American Electric Power (AEP)</h3>
+        <p>
+            AEP is one of the largest electric utilities in the United States, serving millions of customers across the country. AEP is dedicated to ensuring the safety and well-being of its field and line workers, who often face hazardous environments while working to restore power during storms and other adverse conditions.
+        </p>
+
+        <h3>2. Purpose of the Project</h3>
+        <p>
+            This project aims to leverage modern data analysis and machine learning techniques to identify high-value safety observations within thousands of recorded comments from AEP's CORE visits. The primary goal is to proactively pinpoint critical safety hazards that could potentially lead to serious injuries. By doing so, the organization can implement targeted interventions and mitigate risks in the field.
+        </p>
+
+        <h3>3. Dashboard Significance</h3>
+        <p>
+            This dashboard plays a crucial role in AEP's ongoing efforts to prioritize worker safety. By isolating and highlighting critical observations, it enables stakeholders to take data-driven actions that safeguard employees and prevent accidents. The insights from this dashboard allow AEP to enhance the safety culture and protect its essential workforce.
+        </p>
+    </div>
+</section>
+
+
+    <div class="dashboard">
+        <div class="card">
+            <h2>Total Observations</h2>
+            <p id="total-observations">0</p>
+        </div>
+        <div class="card">
+            <h2>Critical Observations</h2>
+            <p id="critical-observations">0</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
